@@ -9,10 +9,10 @@ test_subj<-read.table("./getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/te
 activity_labels<-read.table("./getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/activity_labels.txt")
 measurement_labels<-read.table("./getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/features.txt")
   ##Combine the 3 Train files into one containing the Subject ids, Activity codes
-  ##and the Measurments
+  ##and the Measurements
 Bind_train_set<-cbind(train_subj, train_act, train_values)
   ##Combine the 3 Test files into one containing the Subject ids, Activity codes
-  ##and the Measurments
+  ##and the Measurements
 Bind_test_set<-cbind(test_subj, test_act, test_values)
   ##Combine the Train and Test subsets into one longer dataset
 Combo_train_test<-rbind(Bind_train_set, Bind_test_set)
