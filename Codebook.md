@@ -4,29 +4,29 @@ The values in the Tidy data are the means of the aggregate values by Subject and
 * The variable descriptions were provided with the original dataset. As the variable names were kept in the Tidy Dataset this Code Book looks similar to the 
 original Codebook.
 
-* Subject  	Participant in the study, identified by an integer from 1 to 30
-* Activity	Activity performed by the subject: WALKING, WALKING_UPSTAIRS,
+* Subject:  	Participant in the study, identified by an integer from 1 to 30
+* Activity:	Activity performed by the subject: WALKING, WALKING_UPSTAIRS,
           WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 * The remaining variable names are provided as a list. The components of the names
 are explained here.
-* prefix 't'   denote time
-* 'f'          indicate frequency
-* '-XYZ'       denote 3-axial signals in the X, Y and Z directions
+* prefix 't':   denote time
+* 'f':          indicate frequency
+* '-XYZ':       denote 3-axial signals in the X, Y and Z directions
 
-* Acc          signal from the accelerometer
-* body         force exerted by the subject
-* Gravity      force exerted by gravity
-* Gyro         signal from the gyroscope
-* Jerk         signals derived from body linear acceleration and angular velocity
-* Mag          Magnitude  
-* mean()       Mean value
-* std()        Standard deviation
+* Acc:          signal from the accelerometer
+* body:         force exerted by the subject
+* Gravity:      force exerted by gravity
+* Gyro:         signal from the gyroscope
+* Jerk:         signals derived from body linear acceleration and angular velocity
+* Mag:          Magnitude  
+* mean():       Mean value
+* std():        Standard deviation
 
-* Units        Angular velocity(radian/sec), forces (standard gravity unit"g"), 
+* Units:        Angular velocity(radian/sec), forces (standard gravity unit"g"), 
              frequency(Hz)
 
-* List of names:
+List of names:
 * tBodyAcc-mean()-X
 * tBodyAcc-mean()-Y
 * tBodyAcc-mean()-Z
